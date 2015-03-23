@@ -179,7 +179,6 @@ Nerdbox.prototype._loadAjax = function(url) {
   var that = this;
 
   jQuery.ajax(url, {
-    dataType: 'html',
     success: function(data) {
       that._setContent(data);
     }
