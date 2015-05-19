@@ -30,7 +30,7 @@ Nerdbox.options = {
   <div class="nb-overlay"></div> \
   <div class="nb-wrapper"> \
     <div class="nb-content"></div> \
-    <a href="#" class="nb-close" title="close"></a> \
+    <a href="" class="nb-close" title="close"></a> \
   </div> \
 </div>',
   loader          : '\
