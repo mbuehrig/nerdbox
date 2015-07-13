@@ -145,7 +145,7 @@ Nerdbox.prototype._loadContent = function(href) {
     this._loadElement(jQuery(href));
 
   // Render a div
-  } else if( href.match(/#/) ) {
+  } else if( href.match(/^[#].*/) ) {
     this._loadFragment(href);
 
   // Render an image
