@@ -127,11 +127,7 @@ Nerdbox.prototype._setup = function() {
   }
 
   // Close lightbox
-  jQuery(this._overlaySelector()).on('click', Nerdbox.close);
   jQuery(this.options.nerdboxSelector).on('click', this.options.closeSelector, Nerdbox.close);
-  jQuery('body').on('keyup', function(event) {
-    if( event.keyCode == 27 ) { Nerdbox.close(); }
-  });
 
   this._trigger('initialized');
 };
